@@ -1,0 +1,21 @@
+table, th, td {border: 1px solid black;
+border-collapse: collapse;
+padding: 5px;
+}
+
+table {width: 100%;}
+td {text-align: center;}
+th {text-align: center;
+color: white;
+background-color: blue;}
+
+caption {
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    line-height: 70px;
+}
+
+tr:nth-child(even){
+    background-color: aqua;
+}
